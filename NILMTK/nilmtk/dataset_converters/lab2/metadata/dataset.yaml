@@ -1,0 +1,21 @@
+name: LAB
+long_name: Dataset do laboratorio.
+creators:
+- Andrye, Harllan
+publication_date: 2015
+institution: Universidade Federal de Campina Grande (UFCG)
+contact: harllan@copin.ufcg.edu.br   # email
+description: Dados coletado no laboratório.
+subject: Desagregacao de equipamentos.
+number_of_buildings: 1
+timezone: America/Fortaleza   # UFCG
+geo_location:
+  locality: Campina Grande   # cidade
+  country: BR   # Brasil
+  latitude: -7.2174594 # UFCG coodenadas
+  longitude: -35.9096713
+related_documents:
+- http://somepage.br
+- >
+  LAB: Dataset do laboratorio.
+schema: https://github.com/harllan

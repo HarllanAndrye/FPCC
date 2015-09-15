@@ -1,0 +1,34 @@
+Meter:
+  model: Meter
+  manufacturer: UFCG
+  manufacturer_url: http://somepage.com
+  description: >
+    Dados separados por aparelho.
+  sample_period: 1   # the interval between samples. In seconds.
+  max_sample_period: 20   # Max allowable interval between samples. Seconds.
+  measurements:
+  - physical_quantity: power   # power, voltage, energy, current?
+    type: active   # active (real power), reactive or apparent?
+    upper_limit: 5000
+    lower_limit: 0
+  - physical_quantity: power
+    type: reactive   
+    upper_limit: 5000
+    lower_limit: 0
+  wireless: false
+
+LAB_whole_house:
+  description: >
+    Dados da casa completa coletados em laboratorio.
+  sample_period: 1
+  max_sample_period: 20
+  measurements:
+  - physical_quantity: power
+    type: active
+    upper_limit: 50000
+    lower_limit: 0
+  - physical_quantity: power
+    type: reactive
+    upper_limit: 50000
+    lower_limit: 0
+  wireless: false
